@@ -1,4 +1,4 @@
-//Arduino test sketch for nokia 2760 caller id display
+//Arduino test sketch for Nokia 2760 caller id display
 //Assuming the display controller is PCF8814
 
 #define charge_pump_on B00101111
