@@ -2,6 +2,7 @@
  Arduino test sketch for Nokia 2760 caller id display
 
 Pinout:
+
 1 -SCLK
 2 -SDIN
 3 -GND
