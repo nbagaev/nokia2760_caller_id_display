@@ -1,3 +1,6 @@
+//Arduino test sketch for nokia 2760 caller id display
+//Assuming the display controller is PCF8814
+
 #define charge_pump_on B00101111
 #define display_on B10101111
 #define display_all_off B10100100
@@ -28,7 +31,7 @@ void send_byte(uint8_t dc, uint8_t bits)
 
 void set_cursor(uint8_t column, uint8_t row)
 {
-  //display has 96 columns (X) and 8 8-pixel high rows + 1 1-pixel row (Y)
+  //display has 96 columns (X) and 8 8-pixel high rows + 1 4-pixel row (Y)
   //each byte in RAM represents an 8-pixel column
 
   //Horizontal addressing
