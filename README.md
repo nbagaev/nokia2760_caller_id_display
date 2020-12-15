@@ -2,25 +2,25 @@
  Arduino test sketch for Nokia 2760 caller id display
 
 Pinout:
+```
+1  = SCL
 
-1 -SCLK
+2  = SDA
 
-2 -SDIN
+3  = GND
 
-3 -GND
+4  = CSX
 
-4 -CSE
+5  = RESX
 
-5 -RESET
+6  = LED+ (18mA)
 
-6 -LED+ (6V)
+7  = LED-
 
-7 -LED_GND
+8  = NC (to GND)
 
-8 -NC
+9  = VDD (+2,8V)
 
-9 -VDD (+3,3V)
-
-10-VDD (+3,3V)
-
+10 = VDDI (+1,8V)
+```
 ![fig1.jpg](fig1.jpg)
