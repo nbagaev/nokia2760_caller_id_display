@@ -1,4 +1,4 @@
-# nokia2760_caller_id_display
+# Nokia 2760 caller id display
  Arduino test sketch for Nokia 2760 caller id display
 
 Pinout:
